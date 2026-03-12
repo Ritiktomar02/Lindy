@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/rishavdas/Documents/GitHub/Lindy/src/app/%28marketing%29/layout.tsx"],"sourcesContent":["export default function MarketingLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return (\n    <div className=\"flex flex-col min-h-screen w-full\">\n      {/* Marketing Layout (full-width nav, no sidebar) */}\n      <nav className=\"w-full border-b p-4\">\n        <div className=\"max-w-7xl mx-auto font-medium\">Lindy Marketing Nav</div>\n      </nav>\n      <main className=\"flex-1 w-full\">\n        {children}\n      </main>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS,gBAAgB,EACtC,QAAQ,EAGT;IACC,qBACE,8QAAC;QAAI,WAAU;;0BAEb,8QAAC;gBAAI,WAAU;0BACb,cAAA,8QAAC;oBAAI,WAAU;8BAAgC;;;;;;;;;;;0BAEjD,8QAAC;gBAAK,WAAU;0BACb;;;;;;;;;;;;AAIT"}}]
+}
