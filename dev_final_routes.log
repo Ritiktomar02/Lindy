@@ -1,0 +1,91 @@
+
+> tmp-app@0.1.0 dev
+> next dev
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/rishavdas/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/rishavdas/Downloads/Lindy/package-lock.json
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.29.192:3000
+
+✓ Starting...
+✓ Ready in 522ms
+⚠ Cross origin request detected from 192.168.29.192 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /onboarding/profile 404 in 1743ms (compile: 1486ms, render: 257ms)
+ GET /signup/verify 200 in 1736ms (compile: 1586ms, render: 151ms)
+ GET /signup/email 200 in 1743ms (compile: 1614ms, render: 129ms)
+ HEAD / 200 in 323ms (compile: 270ms, render: 53ms)
+ HEAD /signup 200 in 199ms (compile: 170ms, render: 29ms)
+ HEAD /signup/email 200 in 24ms (compile: 1441µs, render: 22ms)
+ HEAD /signup/verify 200 in 25ms (compile: 3ms, render: 22ms)
+ HEAD /onboarding/profile 404 in 16ms (compile: 3ms, render: 14ms)
+ HEAD /onboarding/intent 404 in 15ms (compile: 1674µs, render: 14ms)
+ HEAD /onboarding/workspace 404 in 16ms (compile: 1961µs, render: 14ms)
+ HEAD /onboarding/pricing 404 in 17ms (compile: 1743µs, render: 15ms)
+ HEAD /home 200 in 183ms (compile: 163ms, render: 19ms)
+ GET /signup/verify 200 in 263ms (compile: 83ms, render: 180ms)
+ GET /signup/email 200 in 109ms (compile: 15ms, render: 94ms)
+ GET /signup/verify 200 in 95ms (compile: 2ms, render: 92ms)
+ GET /signup/email 200 in 80ms (compile: 3ms, render: 78ms)
+ GET /signup/verify 200 in 154ms (compile: 1622µs, render: 152ms)
+ GET /signup/email 200 in 138ms (compile: 1910µs, render: 136ms)
+ GET /signup/verify 200 in 173ms (compile: 3ms, render: 170ms)
+ GET /signup/email 200 in 170ms (compile: 4ms, render: 166ms)
+ GET /onboarding/profile 200 in 448ms (compile: 300ms, render: 148ms)
+ GET /signup/verify 200 in 175ms (compile: 2ms, render: 173ms)
+ GET /signup/email 200 in 175ms (compile: 13ms, render: 163ms)
+ GET /onboarding/profile 200 in 198ms (compile: 26ms, render: 171ms)
+ GET /onboarding/profile 200 in 241ms (compile: 12ms, render: 228ms)
+ GET /signup/verify 200 in 242ms (compile: 2ms, render: 239ms)
+ GET /signup/email 200 in 237ms (compile: 2ms, render: 235ms)
+ GET /onboarding/profile 200 in 255ms (compile: 5ms, render: 250ms)
+ GET /onboarding/profile 200 in 61ms (compile: 15ms, render: 46ms)
+ GET /onboarding/profile 200 in 272ms (compile: 3ms, render: 270ms)
+ GET /onboarding/profile 200 in 183ms (compile: 15ms, render: 168ms)
+ GET /onboarding/profile 200 in 229ms (compile: 23ms, render: 206ms)
+ GET /signup/verify 200 in 308ms (compile: 5ms, render: 303ms)
+ GET /signup/email 200 in 265ms (compile: 4ms, render: 260ms)
+ GET /signup/email 200 in 253ms (compile: 14ms, render: 239ms)
+ GET /signup/verify 200 in 268ms (compile: 3ms, render: 265ms)
+ GET /signup/verify 200 in 218ms (compile: 34ms, render: 184ms)
+ GET /onboarding/profile 200 in 314ms (compile: 28ms, render: 286ms)
+ GET /signup/email 200 in 161ms (compile: 8ms, render: 153ms)
+ GET /signup/verify 200 in 142ms (compile: 3ms, render: 139ms)
+ GET /signup/email 200 in 144ms (compile: 16ms, render: 129ms)
+ GET /signup/verify 200 in 142ms (compile: 4ms, render: 139ms)
+ GET /signup/email 200 in 160ms (compile: 17ms, render: 142ms)
+ GET /signup/verify 200 in 183ms (compile: 9ms, render: 174ms)
+ GET /signup/email 200 in 153ms (compile: 5ms, render: 148ms)
+ GET /signup/verify 200 in 168ms (compile: 6ms, render: 162ms)
+ GET /signup/email 200 in 145ms (compile: 6ms, render: 139ms)
+ GET /signup/verify 200 in 137ms (compile: 3ms, render: 133ms)
+ GET /signup/email 200 in 121ms (compile: 5ms, render: 115ms)
+ GET /signup/verify 200 in 111ms (compile: 4ms, render: 106ms)
+ GET /signup/email 200 in 95ms (compile: 4ms, render: 91ms)
+ GET /signup/verify 200 in 109ms (compile: 3ms, render: 106ms)
+ GET /signup/email 200 in 107ms (compile: 3ms, render: 104ms)
+ GET /signup/verify 200 in 108ms (compile: 3ms, render: 105ms)
+ GET /signup/email 200 in 113ms (compile: 3ms, render: 110ms)
+ GET /signup/verify 200 in 127ms (compile: 3ms, render: 124ms)
+ GET /signup/email 200 in 117ms (compile: 3ms, render: 114ms)
+ GET /signup/verify 200 in 130ms (compile: 8ms, render: 122ms)
+ GET /signup/email 200 in 116ms (compile: 4ms, render: 112ms)
+ GET /signup/verify 200 in 125ms (compile: 3ms, render: 122ms)
+ GET /signup/email 200 in 121ms (compile: 1819µs, render: 119ms)
+ GET /signup/verify 200 in 135ms (compile: 3ms, render: 132ms)
+ GET /signup/email 200 in 123ms (compile: 4ms, render: 119ms)
+ GET /signup/verify 200 in 121ms (compile: 5ms, render: 116ms)
+ GET /signup/email 200 in 93ms (compile: 3ms, render: 90ms)
+ GET /signup/verify 200 in 108ms (compile: 3ms, render: 105ms)
+ GET /signup/email 200 in 96ms (compile: 1933µs, render: 94ms)
+ GET /signup/verify 200 in 79ms (compile: 3ms, render: 76ms)
+ GET /signup/email 200 in 65ms (compile: 3ms, render: 62ms)
+ GET /signup/verify 200 in 50ms (compile: 3ms, render: 47ms)
+ GET /signup/email 200 in 29ms (compile: 1512µs, render: 28ms)
+[?25h

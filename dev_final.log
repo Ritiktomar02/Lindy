@@ -1,0 +1,432 @@
+
+> tmp-app@0.1.0 dev
+> next dev
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/rishavdas/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/rishavdas/Downloads/Lindy/package-lock.json
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.29.192:3000
+
+✓ Starting...
+✓ Ready in 665ms
+ GET / 200 in 1651ms (compile: 1540ms, render: 112ms)
+ GET / 200 in 83ms (compile: 32ms, render: 51ms)
+⚠ Cross origin request detected from 192.168.29.192 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET / 200 in 61ms (compile: 10ms, render: 51ms)
+ GET / 200 in 83ms (compile: 27ms, render: 56ms)
+ GET / 200 in 258ms (compile: 85ms, render: 173ms)
+ GET /signup 404 in 1209ms (compile: 1165ms, render: 43ms)
+ GET /signup 404 in 44ms (compile: 4ms, render: 40ms)
+ GET / 200 in 52ms (compile: 11ms, render: 42ms)
+ GET / 200 in 123ms (compile: 48ms, render: 74ms)
+⨯ Error [PageNotFoundError]: Cannot find module for page: route not found /(marketing)/page
+    at ignore-listed frames {
+  code: 'ENOENT'
+}
+✓ Compiled in 3.2s
+ GET / 500 in 2.3s (compile: 2.2s, render: 117ms)
+⨯ Error [PageNotFoundError]: Cannot find module for page: route not found /(marketing)/page
+    at ignore-listed frames {
+  code: 'ENOENT'
+}
+ GET / 500 in 16ms (compile: 11ms, render: 5ms)
+⨯ Error [PageNotFoundError]: Cannot find module for page: route not found /(marketing)/page
+    at ignore-listed frames {
+  code: 'ENOENT'
+}
+ GET / 500 in 23ms (compile: 17ms, render: 6ms)
+⨯ Error [PageNotFoundError]: Cannot find module for page: route not found /(marketing)/page
+    at ignore-listed frames {
+  code: 'ENOENT'
+}
+ GET / 500 in 13ms (compile: 7ms, render: 7ms)
+⨯ Error [PageNotFoundError]: Cannot find module for page: route not found /(marketing)/page
+    at ignore-listed frames {
+  code: 'ENOENT'
+}
+ GET / 500 in 11ms (compile: 6ms, render: 5ms)
+⨯ Error [PageNotFoundError]: Cannot find module for page: route not found /(marketing)/page
+    at ignore-listed frames {
+  code: 'ENOENT'
+}
+ GET / 500 in 17ms (compile: 5ms, render: 12ms)
+⨯ Error [PageNotFoundError]: Cannot find module for page: route not found /(marketing)/page
+    at ignore-listed frames {
+  code: 'ENOENT'
+}
+ GET / 500 in 14ms (compile: 8ms, render: 6ms)
+⨯ Error [PageNotFoundError]: Cannot find module for page: route not found /(marketing)/page
+    at ignore-listed frames {
+  code: 'ENOENT'
+}
+ GET / 500 in 11ms (compile: 5ms, render: 6ms)
+⨯ Error [PageNotFoundError]: Cannot find module for page: route not found /(marketing)/page
+    at ignore-listed frames {
+  code: 'ENOENT'
+}
+ GET / 500 in 33ms (compile: 11ms, render: 22ms)
+⨯ Error [PageNotFoundError]: Cannot find module for page: route not found /(marketing)/page
+    at ignore-listed frames {
+  code: 'ENOENT'
+}
+⨯ Error [PageNotFoundError]: Cannot find module for page: route not found /(marketing)/page
+    at ignore-listed frames {
+  code: 'ENOENT'
+}
+ GET / 500 in 56ms (compile: 33ms, render: 23ms)
+ GET / 500 in 45ms (compile: 29ms, render: 16ms)
+⨯ Error [PageNotFoundError]: Cannot find module for page: route not found /(marketing)/page
+    at ignore-listed frames {
+  code: 'ENOENT'
+}
+ GET / 500 in 24ms (compile: 16ms, render: 8ms)
+✓ Compiled in 140ms
+⚠ Fast Refresh had to perform a full reload when ./Downloads/Lindy/node_modules/next/dist/shared/lib/router/router.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload when ./Downloads/Lindy/node_modules/next/dist/shared/lib/router/router.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⨯ Error [PageNotFoundError]: Cannot find module for page: route not found /(marketing)/page
+    at ignore-listed frames {
+  code: 'ENOENT'
+}
+ GET / 500 in 86ms (compile: 61ms, render: 25ms)
+⨯ Error [PageNotFoundError]: Cannot find module for page: route not found /(marketing)/page
+    at ignore-listed frames {
+  code: 'ENOENT'
+}
+ GET / 500 in 53ms (compile: 28ms, render: 25ms)
+✓ Compiled in 526ms
+ GET / 200 in 504ms (compile: 265ms, render: 239ms)
+ GET / 200 in 97ms (compile: 3ms, render: 94ms)
+ GET / 200 in 36ms (compile: 1157µs, render: 35ms)
+ GET /signup 200 in 1257ms (compile: 1173ms, render: 84ms)
+ GET /signup 200 in 78ms (compile: 17ms, render: 61ms)
+Persisting failed: Unable to write SST file 00000102.sst
+
+Caused by:
+    No such file or directory (os error 2)
+✓ Compiled in 428ms
+⨯ Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+}
+⨯ Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+}
+⨯ Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+}
+⨯ Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+}
+⨯ Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+}
+⨯ Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+}
+⨯ Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+}
+⨯ Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+}
+⨯ Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+}
+⨯ Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+}
+⨯ Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+}
+⨯ Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+}
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+
+thread 'tokio-runtime-worker' (3189407) panicked at /Users/geist/dev/actions-runner/_work/next.js/next.js/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for AssetIdent::from_path (TaskId 152726))
+
+Caused by:
+    0: Looking up data for TaskId 152726 from database failed
+    1: Unable to open static sorted file referenced from 00000098.meta
+    2: Unable to open static sorted file 00000093.sst
+    3: No such file or directory (os error 2)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+⨯ ./Downloads/Lindy/src/app/(onboarding)/layout.tsx:1:1
+Module not found: Can't resolve 'next/link'
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mOnboardingLayout[39m({ 
+ [90m 4 |[39m   children [0m
+
+Failed to restore task data (corrupted database or bug): Meta for AssetIdent::from_path (TaskId 152726))
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of *AssetIdent::path failed
+- Execution of <FileSource as Source>::ident failed
+- Failed to restore task data (corrupted database or bug): Meta for AssetIdent::from_path (TaskId 152726))
+  
+  Caused by:
+      0: Looking up data for TaskId 152726 from database failed
+      1: Unable to open static sorted file referenced from 00000098.meta
+      2: Unable to open static sorted file 00000093.sst
+      3: No such file or directory (os error 2)
+Import map: aliased to module 'next' with subpath '/dist/client/app-dir/link.react-server' inside of [project]/Downloads/Lindy
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Downloads/Lindy/src/app/(onboarding)/layout.tsx:1:1
+Module not found: Can't resolve 'next/link'
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mOnboardingLayout[39m({ 
+ [90m 4 |[39m   children [0m
+
+Failed to restore task data (corrupted database or bug): Meta for AssetIdent::from_path (TaskId 152726))
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of *AssetIdent::path failed
+- Execution of <FileSource as Source>::ident failed
+- Failed to restore task data (corrupted database or bug): Meta for AssetIdent::from_path (TaskId 152726))
+  
+  Caused by:
+      0: Looking up data for TaskId 152726 from database failed
+      1: Unable to open static sorted file referenced from 00000098.meta
+      2: Unable to open static sorted file 00000093.sst
+      3: No such file or directory (os error 2)
+Import map: aliased to module 'next' with subpath '/dist/client/app-dir/link.react-server' inside of [project]/Downloads/Lindy
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+⨯ Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+}
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+⨯ Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/app/(onboarding)/signup/page/build-manifest.json'
+}
+Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+}
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+⨯ ./Downloads/Lindy/src/app/(onboarding)/layout.tsx:1:1
+Module not found: Can't resolve 'next/link'
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mOnboardingLayout[39m({ 
+ [90m 4 |[39m   children [0m
+
+Failed to restore task data (corrupted database or bug): Meta for AssetIdent::from_path (TaskId 152726))
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of *AssetIdent::path failed
+- Execution of <FileSource as Source>::ident failed
+- Failed to restore task data (corrupted database or bug): Meta for AssetIdent::from_path (TaskId 152726))
+  
+  Caused by:
+      0: Looking up data for TaskId 152726 from database failed
+      1: Unable to open static sorted file referenced from 00000098.meta
+      2: Unable to open static sorted file 00000093.sst
+      3: No such file or directory (os error 2)
+Import map: aliased to module 'next' with subpath '/dist/client/app-dir/link.react-server' inside of [project]/Downloads/Lindy
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+Error [ModuleBuildError]: ./Downloads/Lindy/src/app/(onboarding)/layout.tsx:1:1
+Module not found: Can't resolve 'next/link'
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mOnboardingLayout[39m({ 
+ [90m 4 |[39m   children [0m
+
+Failed to restore task data (corrupted database or bug): Meta for AssetIdent::from_path (TaskId 152726))
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of *AssetIdent::path failed
+- Execution of <FileSource as Source>::ident failed
+- Failed to restore task data (corrupted database or bug): Meta for AssetIdent::from_path (TaskId 152726))
+  
+  Caused by:
+      0: Looking up data for TaskId 152726 from database failed
+      1: Unable to open static sorted file referenced from 00000098.meta
+      2: Unable to open static sorted file 00000093.sst
+      3: No such file or directory (os error 2)
+Import map: aliased to module 'next' with subpath '/dist/client/app-dir/link.react-server' inside of [project]/Downloads/Lindy
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (ModuleBuildError: ./Downloads/Lindy/src/app/(onboarding)/layout.tsx:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+Error: ENOENT: no such file or directory, open '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+    at ignore-listed frames {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/rishavdas/Downloads/Lindy/.next/dev/server/pages/_app/build-manifest.json'
+}
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+[?25h
