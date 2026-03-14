@@ -46,6 +46,9 @@ export default function OnboardingLayout({
             </div>
           </div>
         </div>
+
+        {/* Portal root for injecting the Stripe UI specifically over the right panel from the pricing route */}
+        <div id="stripe-portal-root" className="absolute inset-0 z-20 flex items-center justify-center pointer-events-none"></div>
       </div>
 
     </div>

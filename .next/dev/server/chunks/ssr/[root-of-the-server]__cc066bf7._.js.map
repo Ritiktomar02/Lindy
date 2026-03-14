@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///Users/rishavdas/Documents/GitHub/Lindy/src/app/%28app%29/templates/%5Bslug%5D/page.tsx"],"sourcesContent":["import Link from 'next/link';\n\nexport default async function TemplateDetailPage({ params }: { params: Promise<{ slug: string }> }) {\n  const { slug } = await params;\n  return (\n    <div className=\"flex items-center justify-center min-h-screen\">\n      <div className=\"text-center\">\n        <h1 className=\"text-2xl font-bold text-gray-900\">\n          Template: {slug.replace(/-/g, ' ')}\n        </h1>\n        <p className=\"text-gray-500 mt-2\">Coming soon</p>\n        <Link href=\"/templates\" className=\"text-sm text-blue-500 hover:underline mt-4 inline-block\">\n          ← Back to templates\n        </Link>\n      </div>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,eAAe,mBAAmB,EAAE,MAAM,EAAyC;IAChG,MAAM,EAAE,IAAI,EAAE,GAAG,MAAM;IACvB,qBACE,8QAAC;QAAI,WAAU;kBACb,cAAA,8QAAC;YAAI,WAAU;;8BACb,8QAAC;oBAAG,WAAU;;wBAAmC;wBACpC,KAAK,OAAO,CAAC,MAAM;;;;;;;8BAEhC,8QAAC;oBAAE,WAAU;8BAAqB;;;;;;8BAClC,8QAAC,0NAAI;oBAAC,MAAK;oBAAa,WAAU;8BAA0D;;;;;;;;;;;;;;;;;AAMpG"}}]
+}

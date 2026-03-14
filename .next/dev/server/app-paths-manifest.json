@@ -1,4 +1,7 @@
 {
+  "/(app)/home/page": "app/(app)/home/page.js",
+  "/(app)/templates/[slug]/page": "app/(app)/templates/[slug]/page.js",
+  "/(app)/templates/page": "app/(app)/templates/page.js",
   "/(marketing)/page": "app/(marketing)/page.js",
-  "/(onboarding)/onboarding/workspace/page": "app/(onboarding)/onboarding/workspace/page.js"
+  "/_not-found/page": "app/_not-found/page.js"
 }

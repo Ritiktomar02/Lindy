@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///Users/rishavdas/Documents/GitHub/Lindy/src/components/onboarding/WorkspaceSetup.tsx"],"sourcesContent":["export default function WorkspaceSetup() {\n  return <div className=\"p-8\"><h1 className=\"text-2xl font-bold\">Workspace Setup</h1><p className=\"text-gray-500 mt-2\">Coming soon</p></div>;\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBAAO,8QAAC;QAAI,WAAU;;0BAAM,8QAAC;gBAAG,WAAU;0BAAqB;;;;;;0BAAoB,8QAAC;gBAAE,WAAU;0BAAqB;;;;;;;;;;;;AACvH"}},
-    {"offset": {"line": 59, "column": 0}, "map": {"version":3,"sources":["file:///Users/rishavdas/Documents/GitHub/Lindy/src/app/%28onboarding%29/onboarding/workspace/page.tsx"],"sourcesContent":["import WorkspaceSetup from '@/components/onboarding/WorkspaceSetup';\n\nexport default function Page() {\n  return <WorkspaceSetup />;\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBAAO,8QAAC,6LAAc;;;;;AACxB"}}]
-}
